@@ -1,0 +1,38 @@
+body{
+    background: url('R.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#maindiv{
+width: 100%;
+border-radius: 10px;
+animation-name: example; 
+animation-duration: 4s; 
+animation-iteration-count: infinite;
+}
+#footer{
+    bottom: 0;
+    text-align: center;
+    line-height: 2;
+    font-size: 17px;
+    position: fixed;
+    background-color: rgb(43, 180, 43);
+    color: white;
+    width: 100%;
+    animation-name: example;
+     animation-duration: 4s; 
+     animation-iteration-count: infinite;
+}
+canvas{
+    border-radius:15px ;
+    border-style:ridge;
+    border-color:olive;
+    border-width: 7px;
+    animation-name: example;
+     animation-duration: 4s; 
+     animation-iteration-count: infinite;
+}
+@keyframes example { 
+    from {box-shadow: 1px 1px 70px orangered;}
+     to {box-shadow: 1px 1px 70px green;}
+}
